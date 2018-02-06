@@ -1,14 +1,48 @@
-header .top-nav ul li {
-	text-align: center;
-	border-top: 1px solid red;
-}
+body .main-content .crafts .photo-grid .photo-cell-sm img {
+	width: 98%;
+	margin-left: 0;
+	}
 
+@media only screen and (min-width: 649px) {
+	header .top-nav ul {
+		text-align: center;
+		border-top: 1px solid red;
+	}
 
 @media only screen and (min-width: 650px) {
 	.top-nav ul li {
 		display:inline-block;
 	}
-	.photo-cell {
-		
+	header .top-nav ul {
+		text-align: center;
+	}
+	body .main-content .crafts .photo-grid .photo-cell-sm img {
+		display: inline-block;
+		width: 47%;
+		vertical-align: top;
+		float: left;
+		margin-left: 2%;
+		margin-bottom: 2%;
 	}
 }
+@media only screen and (min-width: 850px) {
+	header .top-nav ul {
+		border-top: white;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	body .main-content .crafts .photo-grid .photo-cell-sm img {
+		height: 499.53px;
+		width: 25%;
+	}
+
+	body .main-content .crafts .photo-grid .photo-cell img {
+/*		height: 499.53px;*/
+		width: 50%;
+		display: inline-block;
+		float: left;
+	}
+}
+
+
